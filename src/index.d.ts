@@ -1,20 +1,20 @@
-declare module 'adaptive-scale';
+export as namespace AS;
 
-declare class Size {
+export class Size {
   width: number;
   height: number;
 
   constructor(width: number, height: number);
 }
 
-declare class Rect {
+export class Rect {
   x: number;
   y: number;
 
   constructor(width: number, height: number, x: number, y: number)
 }
 
-declare enum POLICY {
+export enum POLICY {
   ExactFit=1,
   NoBorder,
   FullHeight,
@@ -22,10 +22,10 @@ declare enum POLICY {
   ShowAll,
 }
 
-declare interface Options {
+export interface Options {
   container: Size,
   target: Size,
   policy: POLICY,
 }
 
-declare function getScaledRect({ container, target, policy }: Options): Rect;
+export function getScaledRect({ container, target, policy }: Options): Rect;
