@@ -1,0 +1,16 @@
+{
+  "name": "@types/adaptive-scale",
+  "version": "1.0.0",
+  "description": "TypeScript definitions for @massanchik/adaptive-scale",
+  "typings": "./src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manniepack/adaptive-scale.git"
+  },
+  "author": "@manniepack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manniepack/adaptive-scale/issues"
+  },
+  "homepage": "https://github.com/manniepack/adaptive-scale#readme"
+}
