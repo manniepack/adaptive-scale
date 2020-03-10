@@ -7,7 +7,7 @@ export class Size {
   constructor(width: number, height: number);
 }
 
-export class Rect {
+export class Rect extends Size {
   x: number;
   y: number;
 
